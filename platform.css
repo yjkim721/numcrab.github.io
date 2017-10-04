@@ -1,0 +1,43 @@
+@font-face { 
+font-family: 'NanumGothic'; 
+src: url(NanumFont_TTF_ALL/NanumGothicBold.ttf) format('truetype'); 
+}
+
+nav{
+    margin: 10px;
+    width: 200px;
+    height:100%;
+    background-color: #4060c0;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 30px 0 30px;
+    background-color: #4060c0;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    border-left: solid #e0f0f0 2px;
+}
+
+figure img {
+    margin: 10px;
+    vertical-align: top;
+    padding: 0 20px;
+    width: 80px;
+    height: 60px;
+}
+
+figure figcaption {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5%;
+    padding: 0px 10px;
+    letter-spacing: 5px;
+    font-family: Nanumgothic;
+    font-size: 100%;
+    color: white;
+}
