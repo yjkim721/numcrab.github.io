@@ -1,13 +1,71 @@
 @font-face { 
 font-family: 'NanumGothic'; 
-src: url(NanumFont_TTF_ALL/NanumGothicBold.ttf) format('truetype'); 
+src: url(font/NanumFont_TTF_ALL/NanumGothicBold.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'NanumGothicExtra'; 
+src: url(font/NanumFont_TTF_ALL/NanumGothicExtraBold.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'NanumBrush'; 
+src: url(font/NanumFont_TTF_ALL/NanumBrush.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'Football'; 
+src: url(font/NEXON_Football_Gothic/football.otf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'Box'; 
+src: url(font/blox-brk/Blox2.ttf) format('truetype'); 
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 120px;
+    border-bottom: solid 7px white;
+    background-color: #fcfcf2;
+    margin: 0;
+}
+
+header{
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Football;
+    color: #406060;
+}
+
+header strong{
+    font-family: Football;
+    color: white;
+    background-color: red;
+}
+
+#title_image{
+    width: 80px;
+    height: 80px;
 }
 
 nav{
-    margin: 10px;
     width: 200px;
     height:100%;
     background-color: #4060c0;
+    border-right: solid 7px white;
+    float: left;
+}
+
+#content{
+    background-color: #e0f0f0;
+    width : 100%;
+    height: 100%;
 }
 
 nav ul{
@@ -21,6 +79,15 @@ figure {
     display: inline-block;
     margin: 20px;
     border-left: solid #e0f0f0 2px;
+}
+
+a{
+    text-decoration:none
+}
+
+a:hover{
+    text-decoration:underline;
+    color: white;
 }
 
 figure img {
@@ -40,4 +107,67 @@ figure figcaption {
     font-family: Nanumgothic;
     font-size: 100%;
     color: white;
+}
+
+.section{
+    float: left;
+    width: 500px;
+    height:100%;
+    text-align: center;
+    font-family: Football;
+    font-size: 40px;
+    color: black;
+    margin: 30px;
+}
+
+.section strong{
+    font-family: Football;
+    font-size: 60px;
+    color: #204080;
+    background-color: white;
+}
+
+.article{
+    margin-top:35px;
+    padding: 10px 0px 0px 0px;
+}
+
+#article1{
+    background-color:#FFFDA4;
+}
+
+.article ol{
+    margin-top: 20px;
+    padding: 0px 20px 20px 20px;
+    list-style: none;
+}
+
+#article2{
+    background-color:#ACDEFA;
+}
+
+#line{
+    float: left;
+    width: 10px;
+    height:100%;
+    border-right: 2px dotted white;
+}
+
+.box{
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #613B33;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-top: 4px;
+    background-color: #f0e0e0;
+    font-family: NanumBrush;
+    font-size: 25px;
+    text-align: right;
 }
