@@ -43,6 +43,11 @@ header{
     color: #406060;
 }
 
+header a{
+    text-decoration: none;
+    color: black;
+}
+
 header strong{
     font-family: Football;
     color: white;
@@ -81,13 +86,37 @@ figure {
     border-left: solid #e0f0f0 2px;
 }
 
-a{
+nav ul li a{
     text-decoration:none
 }
 
-a:hover{
+nav ul li a:hover{
     text-decoration:underline;
     color: white;
+}
+
+nav ul li a:visited{
+    color: white;
+}
+
+#article1 ol a{
+    text-decoration: none;
+    color: black;
+}
+
+#article1 ol a:hover{
+    color: #46469C;
+    background-color: white;
+}
+
+#article2 ol a{
+    text-decoration: none;
+    color: black;
+}
+
+#article2 ol a:hover{
+    color: #D15A76;
+    background-color: white;
 }
 
 figure img {

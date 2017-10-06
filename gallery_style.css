@@ -1,0 +1,48 @@
+@font-face { 
+font-family: 'NanumGothic'; 
+src: url(font/NanumFont_TTF_ALL/NanumGothicBold.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'NanumGothicExtra'; 
+src: url(font/NanumFont_TTF_ALL/NanumGothicExtraBold.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'NanumBrush'; 
+src: url(font/NanumFont_TTF_ALL/NanumBrush.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'Football'; 
+src: url(font/NEXON_Football_Gothic/football.otf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'Box'; 
+src: url(font/blox-brk/Blox2.ttf) format('truetype'); 
+}
+
+nav ul ol{
+    list-style: upper-roman;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    font-size: 15px;
+    font-family: NanumGothic;
+    text-align: left;
+    line-height: 25px;
+}
+
+a{
+    text-decoration:none;
+}
+
+nav ul ol a:hover{
+    text-decoration: none;
+    color: black;
+    font-family: Football;
+    font-size: 20px;
+    background-color: white;
+}

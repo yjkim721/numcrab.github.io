@@ -1,0 +1,58 @@
+@font-face { 
+font-family: 'NanumGothic'; 
+src: url(font/NanumFont_TTF_ALL/NanumGothicBold.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'Computa'; 
+src: url(font/Computa/computaL.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'NanumBrush'; 
+src: url(font/NanumFont_TTF_ALL/NanumBrush.ttf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'Football'; 
+src: url(font/NEXON_Football_Gothic/football.otf) format('truetype'); 
+}
+
+@font-face { 
+font-family: 'Box'; 
+src: url(font/blox-brk/Blox2.ttf) format('truetype'); 
+}
+
+iframe{
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 600px;
+    height: 550px;
+    display: inline;
+    float: left;
+}
+
+#schedule{
+    margin: 25px;
+    width: 600px;
+    height: 400px;
+    float: left;
+    border: Groove #e0e0e0 5px;
+}
+
+#article_title{
+    text-align: center;
+    font-family: Football;
+    font-size: 40px;
+}
+
+.article_days{
+    text-align: left;
+    line-height: 40px;
+    font-family: Computa;
+    font-size: 20px;
+}
+
+#paking{
+    display: inline-block;
+}
