@@ -40,11 +40,11 @@ table{
 table td{
     width: 250px;
     height: 250px;
-    border: dashed 8px #2C2699;
+    border: solid 6px #2C2699;
 }
 
 #table2 td{
-    border: dashed 8px #992439;
+    border: solid 6px #992439;
 }
 
 caption{
@@ -68,8 +68,10 @@ caption strong{
     color: #992439;
 }
 
-img{
+#content img{
     height: 250px;
-    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
 }
 

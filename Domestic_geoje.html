@@ -3,14 +3,15 @@
         <title>여행을 떠나요 - 국내 </title>
         <link rel="stylesheet" type="text/css" href="platform.css">
         <link rel="stylesheet" type="text/css" href="nav_style.css">
-        <link rel="stylesheet" type="text/css" href="travel_table_style.css">
+        <link rel="stylesheet" type="text/css" href="travel_content_style.css">        
+        <link rel="stylesheet" type="text/css" href="article_style.css">
     </head>
     <body>
         <header>
             <a href="index.html"><strong>여행</strong>을 떠나요</a>
             <img id="title_image" src="image/title_image.png"/>
         </header>
-
+<div id="packing">
         <nav>
             <ul>
                 <li> 
@@ -25,7 +26,7 @@
                         <li><a href="Domestic_yeosu.html"> 여수&순천 </a></li>
                         <li><a href="Domestic_asan.html"> 아산&태안  </a></li>
                         <li><a href="Domestic_busan.html"> 부산&울산 </a></li>
-                        <li><a href="Domestic_geoje.html"> 거제 </a></li>
+                        <li><a id="visited" href="Domestic_geoje.html"> 거제 </a></li>
                 </ol>
                 <li> 
                 <figure><a href="Abroad.html">
@@ -38,31 +39,27 @@
         </nav>
 
         <div id="content">
-            <table>
-            <caption>가<strong>본</strong> 곳</caption>
-                <tr>
-                    <td><a href="Domestic_jeju.html"><img src="image/DOME_jeju.jpg" title="제주" alt="제주이미지"/></a></td>
-                    <td><a href="Domestic_sokcho.html"><img src="image/DOME_sokcho.jpg" title="속초&춘천" alt="속초&춘천이미지"/></a></td>
-                </tr>
-                <tr>
-                    <td><a href="Domestic_yeosu.html"><img src="image/DOME_yeosu.jpg" title="여수&순천" alt="여수&순천이미지"/></a></td>
-                    <td><a href="Domestic_asan.html"><img src="image/DOME_ahn.jpg" title="아산&태안" alt="아산&태안이미지"/></a></td>
-                </tr>
-            </table>
-
-            <table id="divv">
-            
-            <table>
-
-            <table id="table2">
-            <caption>가<strong>볼</strong> 곳</caption>
-                <tr>
-                    <td><a href="Domestic_busan.html"><img src="image/DOME_Busan.jpg" title="부산&울산" alt="부산&울산이미지"/></a></td>
-                    <td><a href="Domestic_geoje.html"><img src="image/DOME_geoje.jpg" title="거제" alt="거제이미지"/></a></td>
-                </tr>
-
-            </table>
+            <p><거제>아름다운 경관</p>
+            <article>
+                <iframe src="geoje_gallery.html" name="iframe1"> </iframe>
+                <div id="pack">
+                  <div id="schedule">
+                       <p id="article_title">supposed 일정</p>
+                       <p class = "article_days">1일차:<p/> <p class = "contents"> 거가대교 > 지심도 > 외도 보타니아 > 해금강</p> 
+                       <p class = "article_days">2일차:<p/> <p class = "contents"> 바람의 언덕 > 학동 몽돌 해수욕장 > 장사도 </p>
+                       <p class = "description" style='text-align:left;'> <br/><strong>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                        언제 갈 지 아직 미정
+                       </p>
+                  </div>
+                  <div>
+                        <iframe class="video" src="https://www.youtube.com/embed/CR7tZWnumjw" frameborder="0" allowfullscreen></iframe>  
+                        <iframe class="video" src="https://www.youtube.com/embed/2NXVYWyFrX4" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </article>
         </div>
+</div>
         <footer>
             MADE BY. 김연재
         </footer>
